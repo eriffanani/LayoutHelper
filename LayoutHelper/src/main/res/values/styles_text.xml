@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--XXSmall-->
+    <style name="HText.XXSmall" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <!--XXSmall Bold-->
+    <style name="HText.XXSmall.Bold" parent="HText.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--XXSmall Italic-->
+    <style name="HText.XXSmall.Italic" parent="HText.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--XXSmall Bold Italic-->
+    <style name="HText.XXSmall.BoldItalic" parent="HText.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--XSmall-->
+    <style name="HText.XSmall" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <!--XSmall Bold-->
+    <style name="HText.XSmall.Bold" parent="HText.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--XSmall Italic-->
+    <style name="HText.XSmall.Italic" parent="HText.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--XSmall Bold Italic-->
+    <style name="HText.XSmall.BoldItalic" parent="HText.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Small-->
+    <style name="HText.Small" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <!--Small Bold-->
+    <style name="HText.Small.Bold" parent="HText.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Small Italic-->
+    <style name="HText.Small.Italic" parent="HText.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--Small Bold Italic-->
+    <style name="HText.Small.BoldItalic" parent="HText.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Normal-->
+    <style name="HText.Normal" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <!--Normal Bold-->
+    <style name="HText.Normal.Bold" parent="HText.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Normal Italic-->
+    <style name="HText.Normal.Italic" parent="HText.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--Normal Bold Italic-->
+    <style name="HText.Normal.BoldItalic" parent="HText.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Medium-->
+    <style name="HText.Medium" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <!--Medium Bold-->
+    <style name="HText.Medium.Bold" parent="HText.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Medium Italic-->
+    <style name="HText.Medium.Italic" parent="HText.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--Medium Bold Italic-->
+    <style name="HText.Medium.BoldItalic" parent="HText.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Large-->
+    <style name="HText.Large" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_large</item>
+    </style>
+    <!--Large Bold-->
+    <style name="HText.Large.Bold" parent="HText.Large">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Large Italic-->
+    <style name="HText.Large.Italic" parent="HText.Large">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--Large Bold Italic-->
+    <style name="HText.Large.BoldItalic" parent="HText.Large">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--XLarge-->
+    <style name="HText.XLarge" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_xLarge</item>
+    </style>
+    <!--XLarge Bold-->
+    <style name="HText.XLarge.Bold" parent="HText.XLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--XLarge Italic-->
+    <style name="HText.XLarge.Italic" parent="HText.XLarge">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--XLarge Bold Italic-->
+    <style name="HText.XLarge.BoldItalic" parent="HText.XLarge">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--XXLarge-->
+    <style name="HText.XXLarge" parent="HText">
+        <item name="android:textSize">@dimen/helper_text_size_xxLarge</item>
+    </style>
+    <!--XXLarge Bold-->
+    <style name="HText.XXLarge.Bold" parent="HText.XXLarge">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--XXLarge Italic-->
+    <style name="HText.XXLarge.Italic" parent="HText.XXLarge">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <!--XXLarge Bold Italic-->
+    <style name="HText.XXLarge.BoldItalic" parent="HText.XXLarge">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Capsule-->
+    <style name="HButton.Capsule" parent="HButton">
+        <item name="android:background">@drawable/helper_bg_button_capsule</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="iconTint">@android:color/white</item>
+    </style>
+
+    <!--Capsule XXSmall-->
+    <style name="HButton.Capsule.XXSmall" parent="HButton.Capsule">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Match" parent="HButton.Capsule.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Match.Bold" parent="HButton.Capsule.XXSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Match.Italic" parent="HButton.Capsule.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Match.BoldItalic" parent="HButton.Capsule.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Bold" parent="HButton.Capsule.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.Italic" parent="HButton.Capsule.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.XXSmall.BoldItalic" parent="HButton.Capsule.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule XSmall-->
+    <style name="HButton.Capsule.XSmall" parent="HButton.Capsule">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Match" parent="HButton.Capsule.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Match.Bold" parent="HButton.Capsule.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Match.Italic" parent="HButton.Capsule.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Match.BoldItalic" parent="HButton.Capsule.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Bold" parent="HButton.Capsule.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.Italic" parent="HButton.Capsule.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.XSmall.BoldItalic" parent="HButton.Capsule.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Small-->
+    <style name="HButton.Capsule.Small" parent="HButton.Capsule">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Capsule.Small.Match" parent="HButton.Capsule.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Small.Match.Bold" parent="HButton.Capsule.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Small.Match.Italic" parent="HButton.Capsule.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Small.Match.BoldItalic" parent="HButton.Capsule.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Small.Bold" parent="HButton.Capsule.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Small.Italic" parent="HButton.Capsule.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Small.BoldItalic" parent="HButton.Capsule.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Normal-->
+    <style name="HButton.Capsule.Normal" parent="HButton.Capsule">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Match" parent="HButton.Capsule.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Match.Bold" parent="HButton.Capsule.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Match.Italic" parent="HButton.Capsule.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Match.BoldItalic" parent="HButton.Capsule.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Bold" parent="HButton.Capsule.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Normal.Italic" parent="HButton.Capsule.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Normal.BoldItalic" parent="HButton.Capsule.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Medium-->
+    <style name="HButton.Capsule.Medium" parent="HButton.Capsule">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Match" parent="HButton.Capsule.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Match.Bold" parent="HButton.Capsule.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Match.Italic" parent="HButton.Capsule.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Match.BoldItalic" parent="HButton.Capsule.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Bold" parent="HButton.Capsule.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Medium.Italic" parent="HButton.Capsule.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Medium.BoldItalic" parent="HButton.Capsule.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--############################################################################################-->
+
+    <!--Capsule Outline-->
+    <style name="HButton.Capsule.Outline" parent="HButton.Capsule">
+        <item name="android:background">@drawable/helper_bg_button_capsule_outline</item>
+        <item name="android:textColor">@color/colorHelperBlue</item>
+        <item name="iconTint">@color/colorHelperBlue</item>
+    </style>
+
+    <!--Capsule Outline XXSmall-->
+    <style name="HButton.Capsule.Outline.XXSmall" parent="HButton.Capsule.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Match" parent="HButton.Capsule.Outline.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Match.Bold" parent="HButton.Capsule.Outline.XXSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Match.Italic" parent="HButton.Capsule.Outline.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Match.BoldItalic" parent="HButton.Capsule.Outline.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Bold" parent="HButton.Capsule.Outline.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.Italic" parent="HButton.Capsule.Outline.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XXSmall.BoldItalic" parent="HButton.Capsule.Outline.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Outline XSmall-->
+    <style name="HButton.Capsule.Outline.XSmall" parent="HButton.Capsule.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Match" parent="HButton.Capsule.Outline.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Match.Bold" parent="HButton.Capsule.Outline.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Match.Italic" parent="HButton.Capsule.Outline.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Match.BoldItalic" parent="HButton.Capsule.Outline.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Bold" parent="HButton.Capsule.Outline.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.Italic" parent="HButton.Capsule.Outline.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.XSmall.BoldItalic" parent="HButton.Capsule.Outline.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Outline Small-->
+    <style name="HButton.Capsule.Outline.Small" parent="HButton.Capsule.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Match" parent="HButton.Capsule.Outline.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Match.Bold" parent="HButton.Capsule.Outline.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Match.Italic" parent="HButton.Capsule.Outline.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Match.BoldItalic" parent="HButton.Capsule.Outline.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Bold" parent="HButton.Capsule.Outline.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.Italic" parent="HButton.Capsule.Outline.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Small.BoldItalic" parent="HButton.Capsule.Outline.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Outline Normal-->
+    <style name="HButton.Capsule.Outline.Normal" parent="HButton.Capsule.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Match" parent="HButton.Capsule.Outline.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Match.Bold" parent="HButton.Capsule.Outline.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Match.Italic" parent="HButton.Capsule.Outline.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Match.BoldItalic" parent="HButton.Capsule.Outline.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Bold" parent="HButton.Capsule.Outline.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.Italic" parent="HButton.Capsule.Outline.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Normal.BoldItalic" parent="HButton.Capsule.Outline.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Capsule Outline Medium-->
+    <style name="HButton.Capsule.Outline.Medium" parent="HButton.Capsule.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Match" parent="HButton.Capsule.Outline.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Match.Bold" parent="HButton.Capsule.Outline.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Match.Italic" parent="HButton.Capsule.Outline.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Match.BoldItalic" parent="HButton.Capsule.Outline.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Bold" parent="HButton.Capsule.Outline.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.Italic" parent="HButton.Capsule.Outline.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.Outline.Medium.BoldItalic" parent="HButton.Capsule.Outline.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--############################################################################################-->
+
+    <!--No Background-->
+    <style name="HButton.Capsule.NoBackground" parent="HButton.Capsule.Outline">
+        <item name="android:background">@drawable/helper_bg_button_capsule_no_background</item>
+    </style>
+
+    <!--No Background XXSmall-->
+    <style name="HButton.Capsule.NoBackground.XXSmall" parent="HButton.Capsule.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Match" parent="HButton.Capsule.NoBackground.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Match.Bold" parent="HButton.Capsule.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Match.Italic" parent="HButton.Capsule.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Match.BoldItalic" parent="HButton.Capsule.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Bold" parent="HButton.Capsule.NoBackground.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.Italic" parent="HButton.Capsule.NoBackground.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XXSmall.BoldItalic" parent="HButton.Capsule.NoBackground.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background XSmall-->
+    <style name="HButton.Capsule.NoBackground.XSmall" parent="HButton.Capsule.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Match" parent="HButton.Capsule.NoBackground.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Match.Bold" parent="HButton.Capsule.NoBackground.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Match.Italic" parent="HButton.Capsule.NoBackground.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Match.BoldItalic" parent="HButton.Capsule.NoBackground.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Bold" parent="HButton.Capsule.NoBackground.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.Italic" parent="HButton.Capsule.NoBackground.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.XSmall.BoldItalic" parent="HButton.Capsule.NoBackground.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Small-->
+    <style name="HButton.Capsule.NoBackground.Small" parent="HButton.Capsule.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Match" parent="HButton.Capsule.NoBackground.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Match.Bold" parent="HButton.Capsule.NoBackground.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Match.Italic" parent="HButton.Capsule.NoBackground.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Match.BoldItalic" parent="HButton.Capsule.NoBackground.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Bold" parent="HButton.Capsule.NoBackground.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.Italic" parent="HButton.Capsule.NoBackground.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Small.BoldItalic" parent="HButton.Capsule.NoBackground.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Normal-->
+    <style name="HButton.Capsule.NoBackground.Normal" parent="HButton.Capsule.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Match" parent="HButton.Capsule.NoBackground.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Match.Bold" parent="HButton.Capsule.NoBackground.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Match.Italic" parent="HButton.Capsule.NoBackground.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Match.BoldItalic" parent="HButton.Capsule.NoBackground.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Bold" parent="HButton.Capsule.NoBackground.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.Italic" parent="HButton.Capsule.NoBackground.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Normal.BoldItalic" parent="HButton.Capsule.NoBackground.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Medium-->
+    <style name="HButton.Capsule.NoBackground.Medium" parent="HButton.Capsule.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Match" parent="HButton.Capsule.NoBackground.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Match.Bold" parent="HButton.Capsule.NoBackground.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Match.Italic" parent="HButton.Capsule.NoBackground.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Match.BoldItalic" parent="HButton.Capsule.NoBackground.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Bold" parent="HButton.Capsule.NoBackground.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.Italic" parent="HButton.Capsule.NoBackground.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Capsule.NoBackground.Medium.BoldItalic" parent="HButton.Capsule.NoBackground.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>

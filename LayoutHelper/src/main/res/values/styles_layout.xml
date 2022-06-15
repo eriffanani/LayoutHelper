@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--Gravity-->
+    <style name="HLayout.Gravity" parent="HLayout">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="HLayout.Gravity.Start" parent="HLayout">
+        <item name="android:gravity">start</item>
+    </style>
+    <style name="HLayout.Gravity.Top" parent="HLayout">
+        <item name="android:gravity">top</item>
+    </style>
+    <style name="HLayout.Gravity.End" parent="HLayout">
+        <item name="android:gravity">end</item>
+    </style>
+    <style name="HLayout.Gravity.Bottom" parent="HLayout">
+        <item name="android:gravity">bottom</item>
+    </style>
+    <style name="HLayout.Gravity.Vertical" parent="HLayout">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="HLayout.Gravity.Horizontal" parent="HLayout">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!--Orientation-->
+    <style name="HLayout.Vertical" parent="HLayout">
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="HLayout.Horizontal" parent="HLayout">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!--Match-->
+    <style name="HLayout.Match" parent="HLayout">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+
+    <style name="HLayout.Match.All" parent="HLayout.Match">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

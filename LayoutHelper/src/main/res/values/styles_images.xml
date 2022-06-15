@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="HImage.Match" parent="HImage">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HImage.Match.WrapHeight">
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="HImage.Match.WrapWidth" parent="HImage">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="HImage.Match.CenterCrop" parent="HImage.Match">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="HImage.Match.CenterCrop.All" parent="HImage.Match">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="HImage.XXXSmall">
+        <item name="android:layout_width">@dimen/helper_img_size_xxxSmall</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xxxSmall</item>
+    </style>
+    <style name="HImage.XXXSmall.CenterCrop" parent="HImage.XXXSmall">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="HImage.XXXSmall.WrapWidth" parent="HImage.XXXSmall">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="HImage.XXXSmall.WrapHeight" parent="HImage.XXXSmall">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="HImage.XXSmall">
+        <item name="android:layout_width">@dimen/helper_img_size_xxSmall</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xxSmall</item>
+    </style>
+    <style name="HImage.XSmall">
+        <item name="android:layout_width">@dimen/helper_img_size_xSmall</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xSmall</item>
+    </style>
+    <style name="HImage.Small">
+        <item name="android:layout_width">@dimen/helper_img_size_small</item>
+        <item name="android:layout_height">@dimen/helper_img_size_small</item>
+    </style>
+    <style name="HImage.Normal">
+        <item name="android:layout_width">@dimen/helper_img_size_normal</item>
+        <item name="android:layout_height">@dimen/helper_img_size_normal</item>
+    </style>
+    <style name="HImage.NormalPlus">
+        <item name="android:layout_width">@dimen/helper_img_size_normalPlus</item>
+        <item name="android:layout_height">@dimen/helper_img_size_normalPlus</item>
+    </style>
+    <style name="HImage.Medium">
+        <item name="android:layout_width">@dimen/helper_img_size_medium</item>
+        <item name="android:layout_height">@dimen/helper_img_size_medium</item>
+    </style>
+    <style name="HImage.MediumPlus">
+        <item name="android:layout_width">@dimen/helper_img_size_mediumPlus</item>
+        <item name="android:layout_height">@dimen/helper_img_size_mediumPlus</item>
+    </style>
+    <style name="HImage.Large">
+        <item name="android:layout_width">@dimen/helper_img_size_large</item>
+        <item name="android:layout_height">@dimen/helper_img_size_large</item>
+    </style>
+    <style name="HImage.XLarge">
+        <item name="android:layout_width">@dimen/helper_img_size_xLarge</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xLarge</item>
+    </style>
+    <style name="HImage.XXLarge">
+        <item name="android:layout_width">@dimen/helper_img_size_xxLarge</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xxLarge</item>
+    </style>
+    <style name="HImage.XXXLarge">
+        <item name="android:layout_width">@dimen/helper_img_size_xxxLarge</item>
+        <item name="android:layout_height">@dimen/helper_img_size_xxxLarge</item>
+    </style>
+
+    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+
+    <!--Icon-->
+    <style name="HImage.Icon" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_normal</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_normal</item>
+    </style>
+    <style name="HImage.Icon.XXXSmall" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xxxSmall</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xxxSmall</item>
+    </style>
+    <style name="HImage.Icon.XXSmall" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xxSmall</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xxSmall</item>
+    </style>
+    <style name="HImage.Icon.XSmall" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xSmall</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xSmall</item>
+    </style>
+    <style name="HImage.Icon.Small" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_small</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_small</item>
+    </style>
+    <style name="HImage.Icon.Normal" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_normal</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_normal</item>
+    </style>
+    <style name="HImage.Icon.NormalPlus" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_normalPlus</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_normalPlus</item>
+    </style>
+    <style name="HImage.Icon.Medium" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_medium</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_medium</item>
+    </style>
+    <style name="HImage.Icon.MediumPlus" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_mediumPlus</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_mediumPlus</item>
+    </style>
+    <style name="HImage.Icon.Large" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_large</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_large</item>
+    </style>
+    <style name="HImage.Icon.XLarge" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xLarge</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xLarge</item>
+    </style>
+    <style name="HImage.Icon.XXLarge" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xxLarge</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xxLarge</item>
+    </style>
+    <style name="HImage.Icon.XXXLarge" parent="HImage">
+        <item name="android:layout_width">@dimen/helper_icon_size_xxxLarge</item>
+        <item name="android:layout_height">@dimen/helper_icon_size_xxxLarge</item>
+    </style>
+
+</resources>

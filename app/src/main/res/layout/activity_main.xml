@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/HLayout.Match.All"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/HText.Medium"
+        android:layout_marginStart="@dimen/helper_margin_normal"
+        android:text="Hello World!" />
+
+    <Button
+        style="@style/HButton.Capsule.NoBackground.Normal"
+        android:text="Button"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

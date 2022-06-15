@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="HLines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1.2dp</item>
+        <item name="android:background">@color/colorHelperLines</item>
+    </style>
+
+    <style name="HLines.Vertical" parent="HLines">
+        <item name="android:layout_width">1.2dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

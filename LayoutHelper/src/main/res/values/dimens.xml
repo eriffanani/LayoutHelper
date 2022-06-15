@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Margins-->
+    <dimen name="helper_margin_none">0dp</dimen>
+    <dimen name="helper_margin_xxxSmall">2dp</dimen>
+    <dimen name="helper_margin_xxSmall">4dp</dimen>
+    <dimen name="helper_margin_xSmall">6dp</dimen>
+    <dimen name="helper_margin_small">8dp</dimen>
+    <dimen name="helper_margin_normal">10dp</dimen>
+    <dimen name="helper_margin_normalPlus">12dp</dimen>
+    <dimen name="helper_margin_medium">15dp</dimen>
+    <dimen name="helper_margin_mediumPlus">18dp</dimen>
+    <dimen name="helper_margin_large">20dp</dimen>
+    <dimen name="helper_margin_xLarge">22dp</dimen>
+    <dimen name="helper_margin_xxLarge">25dp</dimen>
+    <dimen name="helper_margin_xxxLarge">28dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="helper_text_size_xxSmall">8sp</dimen>
+    <dimen name="helper_text_size_xSmall">10sp</dimen>
+    <dimen name="helper_text_size_small">12sp</dimen>
+    <dimen name="helper_text_size_normal">14sp</dimen>
+    <dimen name="helper_text_size_medium">16sp</dimen>
+    <dimen name="helper_text_size_large">19sp</dimen>
+    <dimen name="helper_text_size_xLarge">22sp</dimen>
+    <dimen name="helper_text_size_xxLarge">25sp</dimen>
+
+    <!--Button-->
+    <dimen name="helper_button_corner_rounded">8dp</dimen>
+    <dimen name="helper_button_corner_capsule">22dp</dimen>
+    <dimen name="helper_button_min_width_xxSmall">55dp</dimen>
+    <dimen name="helper_button_min_width_xSmall">60dp</dimen>
+    <dimen name="helper_button_min_width_small">65dp</dimen>
+    <dimen name="helper_button_min_width_normal">70dp</dimen>
+    <dimen name="helper_button_min_width_medium">75dp</dimen>
+    <!--Button Min Height-->
+    <dimen name="helper_button_min_height_xxSmall">26dp</dimen>
+    <dimen name="helper_button_min_height_xSmall">28dp</dimen>
+    <dimen name="helper_button_min_height_small">30dp</dimen>
+    <dimen name="helper_button_min_height_normal">33dp</dimen>
+    <dimen name="helper_button_min_height_medium">36dp</dimen>
+
+    <!--Icon-->
+    <dimen name="helper_icon_size_xxxSmall">13dp</dimen>
+    <dimen name="helper_icon_size_xxSmall">17dp</dimen>
+    <dimen name="helper_icon_size_xSmall">20dp</dimen>
+    <dimen name="helper_icon_size_small">22dp</dimen>
+    <dimen name="helper_icon_size_normal">24dp</dimen>
+    <dimen name="helper_icon_size_normalPlus">26dp</dimen>
+    <dimen name="helper_icon_size_medium">28dp</dimen>
+    <dimen name="helper_icon_size_mediumPlus">30dp</dimen>
+    <dimen name="helper_icon_size_large">33dp</dimen>
+    <dimen name="helper_icon_size_xLarge">36dp</dimen>
+    <dimen name="helper_icon_size_xxLarge">39dp</dimen>
+    <dimen name="helper_icon_size_xxxLarge">42dp</dimen>
+    <!--Image-->
+    <dimen name="helper_img_size_xxxSmall">42dp</dimen>
+    <dimen name="helper_img_size_xxSmall">50dp</dimen>
+    <dimen name="helper_img_size_xSmall">60dp</dimen>
+    <dimen name="helper_img_size_small">70dp</dimen>
+    <dimen name="helper_img_size_normal">80dp</dimen>
+    <dimen name="helper_img_size_normalPlus">90dp</dimen>
+    <dimen name="helper_img_size_medium">100dp</dimen>
+    <dimen name="helper_img_size_mediumPlus">120dp</dimen>
+    <dimen name="helper_img_size_large">140dp</dimen>
+    <dimen name="helper_img_size_xLarge">160dp</dimen>
+    <dimen name="helper_img_size_xxLarge">180dp</dimen>
+    <dimen name="helper_img_size_xxxLarge">220dp</dimen>
+
+    <!--View-->
+    <dimen name="helper_view_line_thickness">1.2dp</dimen>
+
+</resources>

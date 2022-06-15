@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Square-->
+    <style name="HButton.Square" parent="HButton">
+        <item name="android:background">@drawable/helper_bg_button_square</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="iconTint">@android:color/white</item>
+    </style>
+
+    <!--Square XXSmall-->
+    <style name="HButton.Square.XXSmall" parent="HButton.Square">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Match" parent="HButton.Square.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Match.Bold" parent="HButton.Square.XXSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Match.Italic" parent="HButton.Square.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Match.BoldItalic" parent="HButton.Square.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Bold" parent="HButton.Square.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.XXSmall.Italic" parent="HButton.Square.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.XXSmall.BoldItalic" parent="HButton.Square.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square XSmall-->
+    <style name="HButton.Square.XSmall" parent="HButton.Square">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Square.XSmall.Match" parent="HButton.Square.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.XSmall.Match.Bold" parent="HButton.Square.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.XSmall.Match.Italic" parent="HButton.Square.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.XSmall.Match.BoldItalic" parent="HButton.Square.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.XSmall.Bold" parent="HButton.Square.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.XSmall.Italic" parent="HButton.Square.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.XSmall.BoldItalic" parent="HButton.Square.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Small-->
+    <style name="HButton.Square.Small" parent="HButton.Square">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Square.Small.Match" parent="HButton.Square.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Small.Match.Bold" parent="HButton.Square.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Small.Match.Italic" parent="HButton.Square.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Small.Match.BoldItalic" parent="HButton.Square.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Small.Bold" parent="HButton.Square.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Small.Italic" parent="HButton.Square.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Small.BoldItalic" parent="HButton.Square.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Normal-->
+    <style name="HButton.Square.Normal" parent="HButton.Square">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Square.Normal.Match" parent="HButton.Square.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Normal.Match.Bold" parent="HButton.Square.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Normal.Match.Italic" parent="HButton.Square.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Normal.Match.BoldItalic" parent="HButton.Square.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Normal.Bold" parent="HButton.Square.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Normal.Italic" parent="HButton.Square.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Normal.BoldItalic" parent="HButton.Square.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Medium-->
+    <style name="HButton.Square.Medium" parent="HButton.Square">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Square.Medium.Match" parent="HButton.Square.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Medium.Match.Bold" parent="HButton.Square.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Medium.Match.Italic" parent="HButton.Square.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Medium.Match.BoldItalic" parent="HButton.Square.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Medium.Bold" parent="HButton.Square.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Medium.Italic" parent="HButton.Square.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Medium.BoldItalic" parent="HButton.Square.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--############################################################################################-->
+
+    <!--Square Outline-->
+    <style name="HButton.Square.Outline" parent="HButton.Square">
+        <item name="android:background">@drawable/helper_bg_button_square_outline</item>
+        <item name="android:textColor">@color/colorHelperBlue</item>
+        <item name="iconTint">@color/colorHelperBlue</item>
+    </style>
+
+    <!--Square Outline XXSmall-->
+    <style name="HButton.Square.Outline.XXSmall" parent="HButton.Square.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.Match" parent="HButton.Square.Outline.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.Match.Italic" parent="HButton.Square.Outline.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.Match.BoldItalic" parent="HButton.Square.Outline.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.Bold" parent="HButton.Square.Outline.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.Italic" parent="HButton.Square.Outline.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XXSmall.BoldItalic" parent="HButton.Square.Outline.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Outline XSmall-->
+    <style name="HButton.Square.Outline.XSmall" parent="HButton.Square.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Match" parent="HButton.Square.Outline.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Match.Bold" parent="HButton.Square.Outline.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Match.Italic" parent="HButton.Square.Outline.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Match.BoldItalic" parent="HButton.Square.Outline.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Bold" parent="HButton.Square.Outline.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.Italic" parent="HButton.Square.Outline.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.XSmall.BoldItalic" parent="HButton.Square.Outline.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Outline Small-->
+    <style name="HButton.Square.Outline.Small" parent="HButton.Square.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Match" parent="HButton.Square.Outline.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Match.Bold" parent="HButton.Square.Outline.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Match.Italic" parent="HButton.Square.Outline.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Match.BoldItalic" parent="HButton.Square.Outline.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Bold" parent="HButton.Square.Outline.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.Italic" parent="HButton.Square.Outline.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Small.BoldItalic" parent="HButton.Square.Outline.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Outline Normal-->
+    <style name="HButton.Square.Outline.Normal" parent="HButton.Square.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Match" parent="HButton.Square.Outline.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Match.Bold" parent="HButton.Square.Outline.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Match.Italic" parent="HButton.Square.Outline.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Match.BoldItalic" parent="HButton.Square.Outline.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Bold" parent="HButton.Square.Outline.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.Italic" parent="HButton.Square.Outline.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Normal.BoldItalic" parent="HButton.Square.Outline.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--Square Outline Medium-->
+    <style name="HButton.Square.Outline.Medium" parent="HButton.Square.Outline">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Match" parent="HButton.Square.Outline.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Match.Bold" parent="HButton.Square.Outline.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Match.Italic" parent="HButton.Square.Outline.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Match.BoldItalic" parent="HButton.Square.Outline.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Bold" parent="HButton.Square.Outline.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.Italic" parent="HButton.Square.Outline.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.Outline.Medium.BoldItalic" parent="HButton.Square.Outline.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--############################################################################################-->
+
+    <!--No Background-->
+    <style name="HButton.Square.NoBackground" parent="HButton.Outline">
+        <item name="android:background">@drawable/helper_bg_button_square_no_background</item>
+    </style>
+
+    <!--No Background XXSmall-->
+    <style name="HButton.Square.NoBackground.XXSmall" parent="HButton.Square.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xxSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xxSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xxSmall</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Match" parent="HButton.Square.NoBackground.XXSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Match.Bold" parent="HButton.Square.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Match.Italic" parent="HButton.Square.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Match.BoldItalic" parent="HButton.Square.NoBackground.XXSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Bold" parent="HButton.Square.NoBackground.XXSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.Italic" parent="HButton.Square.NoBackground.XXSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XXSmall.BoldItalic" parent="HButton.Square.NoBackground.XXSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background XSmall-->
+    <style name="HButton.Square.NoBackground.XSmall" parent="HButton.Square.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_xSmall</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_xSmall</item>
+        <item name="android:textSize">@dimen/helper_text_size_xSmall</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Match" parent="HButton.Square.NoBackground.XSmall">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Match.Bold" parent="HButton.Square.NoBackground.XSmall.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Match.Italic" parent="HButton.Square.NoBackground.XSmall.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Match.BoldItalic" parent="HButton.Square.NoBackground.XSmall.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Bold" parent="HButton.Square.NoBackground.XSmall">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.Italic" parent="HButton.Square.NoBackground.XSmall">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.XSmall.BoldItalic" parent="HButton.Square.NoBackground.XSmall">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Small-->
+    <style name="HButton.Square.NoBackground.Small" parent="HButton.Square.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_small</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_small</item>
+        <item name="android:textSize">@dimen/helper_text_size_small</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Match" parent="HButton.Square.NoBackground.Small">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Match.Bold" parent="HButton.Square.NoBackground.Small.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Match.Italic" parent="HButton.Square.NoBackground.Small.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Match.BoldItalic" parent="HButton.Square.NoBackground.Small.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Bold" parent="HButton.Square.NoBackground.Small">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.Italic" parent="HButton.Square.NoBackground.Small">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Small.BoldItalic" parent="HButton.Square.NoBackground.Small">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Normal-->
+    <style name="HButton.Square.NoBackground.Normal" parent="HButton.Square.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_normal</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_normal</item>
+        <item name="android:textSize">@dimen/helper_text_size_normal</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Match" parent="HButton.Square.NoBackground.Normal">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Match.Bold" parent="HButton.Square.NoBackground.Normal.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Match.Italic" parent="HButton.Square.NoBackground.Normal.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Match.BoldItalic" parent="HButton.Square.NoBackground.Normal.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Bold" parent="HButton.Square.NoBackground.Normal">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.Italic" parent="HButton.Square.NoBackground.Normal">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Normal.BoldItalic" parent="HButton.Square.NoBackground.Normal">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <!--No Background Medium-->
+    <style name="HButton.Square.NoBackground.Medium" parent="HButton.Square.NoBackground">
+        <item name="android:minWidth">@dimen/helper_button_min_width_medium</item>
+        <item name="android:minHeight">@dimen/helper_button_min_height_medium</item>
+        <item name="android:textSize">@dimen/helper_text_size_medium</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Match" parent="HButton.Square.NoBackground.Medium">
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Match.Bold" parent="HButton.Square.NoBackground.Medium.Match">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Match.Italic" parent="HButton.Square.NoBackground.Medium.Match">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Match.BoldItalic" parent="HButton.Square.NoBackground.Medium.Match">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Bold" parent="HButton.Square.NoBackground.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.Italic" parent="HButton.Square.NoBackground.Medium">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="HButton.Square.NoBackground.Medium.BoldItalic" parent="HButton.Square.NoBackground.Medium">
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+</resources>
