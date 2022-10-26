@@ -6,12 +6,12 @@
     tools:context=".MainActivity">
 
     <TextView
-        style="@style/HText.Medium"
+        style="@style/HText"
         android:layout_marginStart="@dimen/helper_margin_normal"
         android:text="Hello World!" />
 
     <Button
-        style="@style/HButton.Capsule.NoBackground.Normal"
+        style="@style/HButton.Capsule.Outline.Normal"
         android:text="Button"
         android:layout_centerInParent="true"/>
 
